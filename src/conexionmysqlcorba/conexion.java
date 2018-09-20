@@ -10,6 +10,7 @@ public class conexion{
           Conexion=DriverManager.getConnection("jdbc:mysql://localhost/conexionmysqlcorba","root","");
           System.out.println("Conexion establecida");
       } catch (Exception e) {
+          System.out.println(e.getMessage());
       }
       return Conexion;
   }
