@@ -1,6 +1,4 @@
 
-package conexionmysqlcorba;
-
 
 public class ConexionMysqlCorba {
 
